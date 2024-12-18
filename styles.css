@@ -5,6 +5,7 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+/* ---------------------------------------------------- HOME PAGE ------------------------------------------------------- */
 .navbar {
     background:#000000;
     height:80px;
@@ -31,7 +32,7 @@
 
 #navbar__logo {
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb119 100%);
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -191,7 +192,7 @@
 
 }
 
-/*------- Hero Section CSS --------*/
+/* Hero Section CSS */
 
 .main {
     background-color: #141414;
@@ -291,7 +292,7 @@
     width: 80%;
 }
 
-/*------- Mobile Responsive -------*/
+/* Mobile Responsive */
 @media screen and (max-width: 768px) {
     .main__container {
         display: grid;
@@ -345,7 +346,7 @@
 
 }
 
-/* ------- Services Section CSS -------*/
+/* Services Section CSS */
 .services {
     display: flex;
     flex-direction: column;
@@ -372,15 +373,15 @@
 .services__container {
     display: flex !important;
     justify-content: center !important;
-    flex-wrap: wrap !important; /* Force no wrapping for testing */
+    flex-wrap: wrap !important; 
     max-width: 1200px;
     gap: 2rem;
 }
 
 
 .services__card {
-    width: 500px; /* Set a fixed width */
-    height: 625px; /* Fixed height */
+    width: 500px;
+    height: 625px;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/RC.png');
     background-size: cover;
     border-radius: 4px;
@@ -580,4 +581,176 @@
         padding: 10px;
         width: 100%;
     }
+}
+
+/* ---------------------------------------------------- PROJECTS PAGE ------------------------------------------------------- */
+/*------- Header Section* --------*/
+.background {
+    background-color: #141414;
+}
+
+.background__container {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 350vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+}
+
+
+/* RC Car Section */
+.rcback {
+    position: absolute;
+    top:300px;
+    left: 150px;
+    width: 85%;
+    height: 600px;
+    background-color: #000000;
+}
+
+.background__content h1 {
+    font-size: 3rem;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.background__content p1 {
+    font-size: 1.75rem;
+    color: #fff;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+/* Aerospace Section */
+.aback {
+    position: absolute;
+    top:1100px;
+    left: 150px;
+    width: 85%;
+    height: 600px;
+    background-color: #000000;
+}
+
+.background__content h2 {
+    font-size: 3rem;
+    position: absolute;
+    top: 1000px;
+    left: 150px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.background__content p2 {
+    font-size: 1.75rem;
+    color: #fff;
+    position: absolute;
+    top: 1050px;
+    left: 150px;
+}
+
+/* Finance Tracker Section */
+.ftback {
+    position: absolute;
+    top:1900px;
+    left: 150px;
+    width: 85%;
+    height: 600px;
+    background-color: #000000;
+}
+
+.background__content h3 {
+    font-size: 3rem;
+    position: absolute;
+    top: 1800px;
+    left: 150px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.background__content p3 {
+    font-size: 1.75rem;
+    color: #fff;
+    position: absolute;
+    top: 1850px;
+    left: 150px;
+}
+
+/* LazySwitch Section */
+.lsback {
+    position: absolute;
+    top:2700px;
+    left: 150px;
+    width: 85%;
+    height: 600px;
+    background-color: #000000;
+}
+.background__content h4 {
+    font-size: 3rem;
+    position: absolute;
+    top: 2600px;
+    left: 150px;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.background__content p4 {
+    font-size: 1.75rem;
+    color: #fff;
+    position: absolute;
+    top: 2650px;
+    left: 150px;
+}
+
+/* ---------------------------------------------------- ABOUT PAGE ------------------------------------------------------- */
+.asections {
+
+}
+
+/* Sections */
+.asections {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #141414;
+}
+
+/* ---------------------------------------------------- CONTACT ME PAGE --------------------------------------------------- */
+.cmbackground {
+    background-color:#141414;
+    height: 100vh;
+}
+
+.cm__content {
+    color: #fff;
+    
 }
